@@ -32,7 +32,7 @@ var textBottom = new UI.Text({
     position: new Vector2(0, 130), 
     size: new Vector2(144, 30),
     font: 'gothic-18-bold',
-    text: 'GO!',
+    text: 'LOCATE!',
     textAlign: 'center',
     color: 'black',
     backgroundColor: 'white',
