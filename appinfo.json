@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "siddharth.seth@berkeley.edu",
     "longName": "ChargeMap",
@@ -30,8 +30,8 @@
                 "type": "font"
             },
             {
-                "file": "images/EV-Charging-Road-Sign.png",
-                "name": "IMAGES_EV_CHARGING_ROAD_SIGN_PNG",
+                "file": "images/chargeMapLogoSmall.png",
+                "name": "IMAGES_CHARGEMAPLOGOSMALL_PNG",
                 "type": "png"
             }
         ]
