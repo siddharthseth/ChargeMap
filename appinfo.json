@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "siddharth.seth@berkeley.edu",
     "longName": "ChargeMap",

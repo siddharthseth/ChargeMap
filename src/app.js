@@ -7,11 +7,41 @@
 var UI = require('ui');
 var Vector2 = require('vector2');
 
-var main = new UI.Card({
-  title: 'ChargeMap',
-  icon: 'images/chargeMapLogo.png'
+
+
+var main = new UI.Window();
+
+var logo = new UI.Image({
+  position: new Vector2(0, 0),
+  size: new Vector2(144, 160),
+  image: 'images/chargeMapLogoSmall.png',
+  backgroundColor: 'white'
 });
 
+var textTop = new UI.Text({ 
+    position: new Vector2(0, 0), 
+    size: new Vector2(144, 30),
+    font: 'gothic-28-bold',
+    text: 'ChargeMap',
+    textAlign: 'center',
+    color: 'black',
+    backgroundColor: 'white'
+});
+
+var textBottom = new UI.Text({ 
+    position: new Vector2(0, 130), 
+    size: new Vector2(144, 30),
+    font: 'gothic-18-bold',
+    text: 'GO!',
+    textAlign: 'center',
+    color: 'black',
+    backgroundColor: 'white',
+    borderColor: 'black'
+});
+
+main.add(logo);
+main.add(textTop);
+main.add(textBottom);
 main.show();
 
 main.on('click', 'up', function(e) {
