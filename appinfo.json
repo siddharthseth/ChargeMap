@@ -28,6 +28,11 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/EV-Charging-Road-Sign.png",
+                "name": "IMAGES_EV_CHARGING_ROAD_SIGN_PNG",
+                "type": "png"
             }
         ]
     },

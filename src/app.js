@@ -8,10 +8,8 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 
 var main = new UI.Card({
-  title: 'Pebble.js',
-  icon: 'images/menu_icon.png',
-  subtitle: 'Hello World!',
-  body: 'Press any button.'
+  title: 'ChargeMap v1.0',
+  icon: 'EV_Charging-Road-Sign.png'
 });
 
 main.show();
